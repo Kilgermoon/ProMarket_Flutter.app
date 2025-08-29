@@ -1,0 +1,84 @@
+[debug] [2025-08-10T13:25:05.539Z] ----------------------------------------------------------------------
+[debug] [2025-08-10T13:25:05.545Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-08-10T13:25:05.546Z] CLI Version:   14.12.0
+[debug] [2025-08-10T13:25:05.546Z] Platform:      win32
+[debug] [2025-08-10T13:25:05.546Z] Node Version:  v22.17.0
+[debug] [2025-08-10T13:25:05.547Z] Time:          Sun Aug 10 2025 16:25:05 GMT+0300 (East Africa Time)
+[debug] [2025-08-10T13:25:05.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-10T13:25:06.290Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-08-10T13:25:06.298Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-10T13:25:06.298Z] > authorizing via signed-in user (masakarobert966@gmail.com)
+[debug] [2025-08-10T13:25:06.300Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Desktop\promarket\promarket
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-08-10T13:26:54.068Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:26:54.068Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:26:54.070Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2025-08-10T13:26:55.116Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2025-08-10T13:26:55.116Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2025-08-10T13:27:02.322Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:02.322Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:02.323Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/attachment-global:addFirebase [none]
+[debug] [2025-08-10T13:27:04.353Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/attachment-global:addFirebase 200
+[debug] [2025-08-10T13:27:04.354Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/attachment-global:addFirebase {"name":"operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk"}
+[debug] [2025-08-10T13:27:04.363Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:04.364Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:04.365Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk [none]
+[debug] [2025-08-10T13:27:07.231Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk 200
+[debug] [2025-08-10T13:27:07.232Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk {"name":"operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk"}
+[debug] [2025-08-10T13:27:07.742Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-10T13:27:07.744Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:07.744Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:07.745Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk [none]
+[debug] [2025-08-10T13:27:08.160Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk 200
+[debug] [2025-08-10T13:27:08.161Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk {"name":"operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk"}
+[debug] [2025-08-10T13:27:09.171Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-10T13:27:09.173Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:09.174Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:09.175Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk [none]
+[debug] [2025-08-10T13:27:09.651Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk 200
+[debug] [2025-08-10T13:27:09.652Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk {"name":"operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk"}
+[debug] [2025-08-10T13:27:11.662Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-10T13:27:11.664Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:11.665Z] Checked if tokens are valid: true, expires at: 1754835589639
+[debug] [2025-08-10T13:27:11.665Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk [none]
+[debug] [2025-08-10T13:27:12.028Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk 200
+[debug] [2025-08-10T13:27:12.029Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk {"name":"operations/workflows/NjAwZTYyNmQtZDYyMy00YjM4LTkyM2ItMTQ4YmEyNjE1OTNk","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"attachment-global","projectNumber":"1016505499349","displayName":"Attachment Global","name":"projects/attachment-global","resources":{"hostingSite":"attachment-global"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: attachment-global
+[info]    - Project Name: Attachment Global
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/attachment-global/overview
+[info] i  Using project attachment-global (Attachment Global) 
+[info] 
+=== Storage Setup
+[info] 
+[info] Firebase Storage Security Rules allow you to define how and when to allow
+[info] uploads and downloads. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
